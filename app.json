@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "MedLink BME",
+    "slug": "medlink-bme-sdk57",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "medlink57",
+    "icon": "./assets/branding/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.medlink.bme.sdk57"
+    },
+    "android": {
+      "package": "com.medlink.bme.sdk57",
+      "icon": "./assets/branding/icon.png",
+      "permissions": [
+        "android.permission.CAMERA"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "อนุญาตให้ MedLink สแกนรหัสเครื่องมือ",
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "อนุญาตให้เลือกภาพเครื่องมือและรูปแชต",
+          "cameraPermission": "อนุญาตให้ถ่ายภาพเครื่องมือ",
+          "microphonePermission": false
+        }
+      ],
+      "expo-secure-store",
+      "expo-font",
+      "@react-native-community/datetimepicker",
+      "expo-sharing",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/branding/logo.png",
+          "backgroundColor": "#F9F8F6",
+          "imageWidth": 260
+        }
+      ],
+      "expo-status-bar"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "3f162223-c03b-4e39-89e9-7034ee29c697"
+      }
+    },
+    "owner": "natchapoom"
+  }
+}
