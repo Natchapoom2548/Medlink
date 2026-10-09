@@ -188,4 +188,7 @@ npm run test:integration
 
 วิดีโอสาธิต: รอลิงก์จากทีมงาน จะเพิ่มภายหลังการอัดคลิป
 
+APK สำหรับ Android (SDK 57, EAS preview, versionCode 10): [ดาวน์โหลดจาก Expo](https://expo.dev/artifacts/eas/nDucvGyLHjjldB3lpFsCPzTXYU9oeTorUWur8B_S8h8.apk)  
+SHA-256: `1c8b9f0b284b009cfc95c536880df730ccb6dfbfa5d2af1bf07dc2ab21ff9635`
+
 แอปใช้ข้อมูลของโรงพยาบาลเดียว ต้องออนไลน์เพื่อบันทึกรายการ ไม่มี offline mutation queue ไม่รวมการโทรเสียง/วิดีโอ, Face ID และ remote push ขณะปิดแอป ฟีเจอร์ที่ยังไม่รองรับไม่แสดงเป็นการทำงานจำลอง ดูข้อจำกัด [Face ID](https://docs.expo.dev/versions/v57.0.0/sdk/local-authentication/) และ [push notifications](https://docs.expo.dev/versions/v57.0.0/sdk/notifications/)
