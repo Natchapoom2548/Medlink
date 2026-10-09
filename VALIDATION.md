@@ -1,6 +1,10 @@
 # SDK 57 validation
 
-สมาชิก: อรุชา Front-end/UI Design/App Tester; ณัชภูมิ Back-end/UI Design/App Tester; พัชราวดี UI Design/สไลด์/App Tester; ณัฐพัชร์ Back-end/App Tester.
+สมาชิก: 
+อรุชา Front-end/UI Design/App Tester
+ณัชภูมิ Back-end/UI Design/App Tester
+พัชราวดี UI Design/สไลด์/App Tester
+ณัฐพัชร์ Back-end/App Tester.
 
 วิดีโอสาธิต: รอลิงก์จากทีมงาน (จะเพิ่มหลังการอัดคลิป)
 
