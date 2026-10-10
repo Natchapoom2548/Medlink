@@ -53,12 +53,27 @@ npx eas-cli@latest build --platform android --profile preview
 
 ห้ามใส่ service-role key ใน `EXPO_PUBLIC_*` และห้าม commit ไฟล์ `.env` จริง
 
+## ภาพหน้าจอและวิดีโอสาธิต
+
+ภาพหน้าจอและวิดีโอของแต่ละ role อยู่ใน [Google Drive ของโครงการ](https://drive.google.com/drive/folders/1QUPr0yBWYZnvC2tc13nY6aewjjvXieUY) โดยแยกเนื้อหาของพยาบาล, BME และช่างไว้สำหรับตรวจสอบ flow และใช้ประกอบการนำเสนอ
+
 ## ข้อจำกัด
 
 - ระบบบันทึกรายการต้องออนไลน์และยังไม่มี offline mutation queue
 - Face ID/ลายนิ้วมือและ Push Notification ขณะปิดแอปยังไม่เปิดใช้งาน
 - QR ยืนยันรหัสเครื่องมือ ไม่ใช่หลักฐานว่าผู้ใช้ถือเครื่องจริง
-- ต้องเพิ่มลิงก์วิดีโอสาธิตภายหลัง
+- วิดีโอสาธิตและภาพหน้าจอจัดเก็บไว้ใน [Google Drive ของโครงการ](https://drive.google.com/drive/folders/1QUPr0yBWYZnvC2tc13nY6aewjjvXieUY)
+
+## แนวทางการพัฒนาต่อในอนาคต
+
+- เพิ่ม offline queue และ Push Notification
+- เพิ่ม Face ID/ลายนิ้วมือและ dashboard วิเคราะห์ downtime
+- เชื่อมต่อระบบครุภัณฑ์หรือระบบซ่อมบำรุงของโรงพยาบาล
+- เพิ่ม automated end-to-end tests บนอุปกรณ์จริง
+
+## คำชี้แจงการใช้งานอย่างรับผิดชอบ
+
+MedLink BME เป็นระบบสาธิตและระบบติดตามสถานะเครื่องมือ ไม่ใช่ระบบควบคุมเครื่องมือหรือระบบตัดสินใจทางการแพทย์ ผู้ใช้ต้องตรวจสอบเครื่องมือจริงตามนโยบายโรงพยาบาล ห้ามใส่ข้อมูลผู้ป่วยหรือข้อมูลลับในแชตและไฟล์แนบ และต้องเก็บ service-role key ไว้ฝั่ง server เท่านั้น
 
 ## หลักฐานการตรวจ
 
